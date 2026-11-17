@@ -5,22 +5,22 @@ class GoIpcalc < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/cleonte/go-ipcalc/releases/download/v0.1.1/ipcalc_0.1.1_darwin_arm64.tar.gz"
-      sha256 "782a8de3eab3dd44325c1c6f7f77ebcd7acc24c12a11ef9ee8e927ca2e99eb81"
+      url "https://github.com/cleonte/go-ipcalc/releases/download/v0.1.2/ipcalc_0.1.2_darwin_arm64.tar.gz"
+      sha256 "c5cb452d6c5ffa680b24ed85afd2832e020c7579ada0bb828ff192115a6fad82"
     end
     on_intel do
-      url "https://github.com/cleonte/go-ipcalc/releases/download/v0.1.1/ipcalc_0.1.1_darwin_amd64.tar.gz"
-      sha256 "c2270fa98fd630503c914e46d4f285e8dcb208214469973822dcb0a1111650a4"
+      url "https://github.com/cleonte/go-ipcalc/releases/download/v0.1.2/ipcalc_0.1.2_darwin_amd64.tar.gz"
+      sha256 "da5053f3d42e303fd8c02e5124abca64f3747347d43219121f3ae335e025fbfc"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/cleonte/go-ipcalc/releases/download/v0.1.1/ipcalc_0.1.1_linux_arm64.tar.gz"
-      sha256 "c39c7a3fb7ee833f439bcbb7ed21a6c6f5ab1e1f27e26ec672eb11de5e9c86c0"
+      url "https://github.com/cleonte/go-ipcalc/releases/download/v0.1.2/ipcalc_0.1.2_linux_arm64.tar.gz"
+      sha256 "e9faefd2a9e16577e51d4c2ede5fdad24fc58f405b68eadc9410c178527a118a"
     end
     on_intel do
-      url "https://github.com/cleonte/go-ipcalc/releases/download/v0.1.1/ipcalc_0.1.1_linux_amd64.tar.gz"
-      sha256 "935131581c3154b2f8ea32f2730e77981e47baa097a00a8fdbd2289cd0874884"
+      url "https://github.com/cleonte/go-ipcalc/releases/download/v0.1.2/ipcalc_0.1.2_linux_amd64.tar.gz"
+      sha256 "7123b32cc39ec91e445c7332b3201157a019ee4174dd1d327dc000171410c3cd"
     end
   end
 
